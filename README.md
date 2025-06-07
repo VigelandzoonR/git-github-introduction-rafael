@@ -14,3 +14,8 @@ Must be one of the following:
 - **refactor**: A code change that neither fixes a bug nor adds a feature
 - **style**: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
 - **test**: Adding missing tests or correcting existing tests
+
+# Git reset and undo changes
+- git reset --soft <comit>: Keep changes in the staging area 
+- git reset --mixed <comit>: Comits changes to working directory
+ 
