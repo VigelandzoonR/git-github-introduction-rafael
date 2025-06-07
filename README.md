@@ -16,6 +16,7 @@ Must be one of the following:
 - **test**: Adding missing tests or correcting existing tests
 
 # Git reset and undo changes
-- git reset --soft <comit>: Keep changes in the staging area 
-- git reset --mixed <comit>: Comits changes to working directory
- 
+- git reset --soft <commit>: Keep changes in the staging area, this can help  
+to combining multiple commit into one or rename our commit message  
+- git reset --mixed <commit>: Commits changes to working directory, this can  also help us to reorganize changes before commiting our code
+- git reset --hard <commit>: Delete all uncommited, ATTENTION: Changes are lost forever 
