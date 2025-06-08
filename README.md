@@ -22,5 +22,7 @@ to combining multiple commit into one or rename our commit message
 - git reset --hard <commit>: Delete all uncommited, ATTENTION: Changes are lost forever, use it if you add by mistake some secrets (like hardcode password or api key, or token...) in your code, recommanded methode is to delet definitly that branch and recreate 
 
 # Excercise:
-- create new branch (first move to local main branch and pull latest code)
-- add comits abd use `git reset --soft` to combine that into one comit 
+- first move to local main branch and pull latest code 
+- Add /create a new branch.
+- add 3 commits and use `git reset --soft` to combine that into one comit 
+- Explain git `reset --soft`
